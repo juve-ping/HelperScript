@@ -1,0 +1,16 @@
+---
+application:
+  name: "mangadex-dl"
+  project: "ffa- fa"
+  organization: "QoveryCommunity"
+  storage:
+  - name: "ome"
+    size: "500"
+    type: "hdd"
+    mount_point: "/mnt/ome"
+routers:
+- name: "main-mangadex-dl"
+  routes:
+  - application_name: "mangadex-dl"
+    paths:
+    - "/*"
